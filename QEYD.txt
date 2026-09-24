@@ -1,0 +1,26 @@
+Cədvəl — Android (Flutter)
+Nibras Code © 2026
+
+Bu ZIP veb tətbiq DEYİL.
+Bu, Android Studio / Flutter ilə APK yığmaq üçündür.
+
+1. Zipi açın
+2. Android Studio və ya:
+     flutter create . --project-name cedvel --org com.nibrascode --platforms=android
+     flutter pub get
+     flutter build apk --release
+3. APK: build/app/outputs/flutter-apk/app-release.apk
+
+Nə düzəldilib (1.3.0)
+- Onboarding ilk açılışda işləyir
+- Azərbaycan və English
+- Həftəlik təkrar
+- Cədvəl saatları plana görə genişlənir (08–19-dan kənar da görünür)
+- Bildirişə toxunanda plan açılır, dəqiq alarm icazəsi istənilir
+- Şriftlər paketdədir (oflayn)
+- Təkmil statistika yalnız Premium-da
+- Premium ödənişi Google Play (lokal demo yoxdur)
+- JSON/CSV ixrac yoxdur
+- Release imza: android/nibras-cedvel.jks (parol KEYSTORE_SECRET.txt)
+- Feature graphic: assets/images/feature_graphic.png
+

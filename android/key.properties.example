@@ -1,0 +1,8 @@
+# Bu faylı kopyalayıb "key.properties" adlandırın
+# və öz məlumatlarınızı yazın.
+# key.properties faylını heç vaxt GitHub-a yükləməyin!
+
+storePassword=YOUR_STORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=cedvel
+storeFile=../nibras-cedvel.jks

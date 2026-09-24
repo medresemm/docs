@@ -1,0 +1,8 @@
+# Bu faylı "local.properties" kimi kopyala.
+# Flutter SDK yolunu öz kompüterinə görə yaz.
+
+sdk.dir=C:\\Users\\USER\\AppData\\Local\\Android\\Sdk
+flutter.sdk=C:\\flutter
+# Linux/Mac nümunə:
+# sdk.dir=/home/USER/Android/Sdk
+# flutter.sdk=/home/USER/flutter
