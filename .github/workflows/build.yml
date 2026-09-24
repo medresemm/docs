@@ -19,7 +19,8 @@ jobs:
           channel: 'stable'
       - run: flutter clean
       - run: flutter pub get
-      - run: cd android && gradle wrapper
+      - run: sudo apt-get update && sudo apt-get install -y dos2unix
+      - run: dos2unix android/gradlew
       - run: chmod +x android/gradlew
       - run: flutter build apk --release
       - uses: actions/upload-artifact@v4
